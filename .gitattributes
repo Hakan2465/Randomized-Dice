@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import random
+
+roll = random.randint(1,6)
+print("--",roll,"--")
+if roll > 3 : 
+    print("größter als 3")
+else: print("kleiner als 3")
